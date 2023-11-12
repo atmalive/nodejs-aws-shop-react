@@ -1,4 +1,5 @@
 # React-shop-cloudfront
+task will be done on MONDAY
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 

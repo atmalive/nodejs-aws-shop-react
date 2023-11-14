@@ -1,4 +1,7 @@
 # React-shop-cloudfront
+s3 https://nodejs-aws-shop-react-atmafinal.s3.eu-central-1.amazonaws.com/index.html
+cloudfront https://dxa0ln5lgs0cp.cloudfront.net/
+task will be done on MONDAY
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 

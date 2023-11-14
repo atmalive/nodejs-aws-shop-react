@@ -18,7 +18,7 @@ export class CdkStack extends cdk.Stack {
     const siteBucket = new aws_s3.Bucket(this, "JSCCStaticBucket", {
       bucketName: "nodejs-aws-shop-react-atmafinal",
       websiteIndexDocument: "index.html",
-      publicReadAccess: true,
+      publicReadAccess: false,
       blockPublicAccess: aws_s3.BlockPublicAccess.BLOCK_ACLS
     })
 siteBucket.addToResourcePolicy(new aws_iam.PolicyStatement({
